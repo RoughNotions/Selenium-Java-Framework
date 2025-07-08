@@ -26,8 +26,8 @@ This module covers all below application logics
 
 ### Database module:
 This module covers all databases
-1. MongoDB (Medlife)
-2. MySQL (Myra Integration)
+1. MongoDB
+2. MySQL 
 
 ### DataProvider module:
 This module covers setting up TestData
