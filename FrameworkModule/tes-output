@@ -1,0 +1,26 @@
+<html><title>Runtime Logs</title><meta http-equiv="refresh" content="" ><link rel="icon" href="https://www.medlife.com/static/favicon.ico" class="next-head"/><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css">
+<script>$(document).ready(function() {
+    $('#example').DataTable( {
+        responsive: {
+            details: {
+                type: 'column'
+            }
+        },
+        columnDefs: [ {
+            className: 'control',
+            orderable: false,
+            targets:   0
+        },
+         {
+            className: 'none',
+            targets: -1
+            }
+        ],
+    } );
+} );</script></html><body><h3 align="center"><b><img src="https://www.medlife.com/static/favicon.ico" width="50" height="50"> Regression Test Cases Runtime Logs</b></h3><table id="example" class="display responsive" style="width:100%"><thead><tr><th></th><th style="text-align: center">Time</th><th style="text-align: center">Test Suite</th><th style="text-align: center">Test Case</th><th style="text-align: center">Test Parameters</th><th style="text-align: center">Status</th><th style="text-align: center">Error Message</th><th style="text-align: center">Stack Trace Exception</th></tr></thead><tbody>
